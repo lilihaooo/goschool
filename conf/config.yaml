@@ -1,0 +1,31 @@
+mode: "dev"
+port: 8089
+
+pagesize: 20
+
+mysql:
+ host: "rm-2vc208dd40g94459wqo.mysql.cn-chengdu.rds.aliyuncs.com"
+ port: 3306
+ user: "lihaoselfhigh"
+ password: "lihao@123"
+ db: "aschool"
+ max_open_conns: 20000
+ max_idle_conns: 10000
+
+
+redis:
+ host: "127.0.0.1:6379"
+ password: "123456"
+ db: "4"
+
+
+log:
+ level: "debug"
+ filename: "./log/school.log"
+ max_size: 1000
+ max_age: 3600
+ max_backups: 5
+
+
+
+
